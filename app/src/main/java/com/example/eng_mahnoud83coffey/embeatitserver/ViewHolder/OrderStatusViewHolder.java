@@ -3,21 +3,23 @@ package com.example.eng_mahnoud83coffey.embeatitserver.ViewHolder;
 import android.support.v7.widget.RecyclerView;
 import android.view.ContextMenu;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.eng_mahnoud83coffey.embeatitserver.Common.Common;
 import com.example.eng_mahnoud83coffey.embeatitserver.Interface.ItemClickListiner;
 import com.example.eng_mahnoud83coffey.embeatitserver.R;
 
-public class OrderStatusViewHolder extends RecyclerView.ViewHolder implements
-                                                                   View.OnClickListener,
-                                                                   View.OnCreateContextMenuListener
+public class OrderStatusViewHolder extends RecyclerView.ViewHolder
+
+
                                                                     {
 
 
     public TextView textOrderId,textOrderStatus,textOrderPhone,textOrderAddress;
+    public Button btnEdit,btnRemove,btnDetails,btnDirection;
 
-    private ItemClickListiner itemClickListener;
+
 
 
     public OrderStatusViewHolder(View itemView)
@@ -29,36 +31,20 @@ public class OrderStatusViewHolder extends RecyclerView.ViewHolder implements
         textOrderPhone=(TextView)itemView.findViewById(R.id.order_status_phone);
         textOrderAddress=(TextView)itemView.findViewById(R.id.order_status_address);
 
+        btnEdit=(Button)itemView.findViewById(R.id.btnEdit_itemStatus);
+        btnDetails=(Button)itemView.findViewById(R.id.btnDetails_itemStatus);
+        btnDirection=(Button)itemView.findViewById(R.id.btnDirection_itemStatus);
+        btnRemove=(Button)itemView.findViewById(R.id.btnRemove_itemStatus);
 
-        itemView.setOnCreateContextMenuListener(this);
-        itemView.setOnClickListener(this);
 
         }
 
 
 
-    public void setItemClickListener(ItemClickListiner itemClickListener)
-    {
-        this.itemClickListener = itemClickListener;
-    }
-
-    @Override
-    public void onClick(View view)
-    {
-        itemClickListener.onClick(view,getAdapterPosition(),false);
-
-    }
 
 
-    @Override
-    public void onCreateContextMenu(ContextMenu contextMenu, View view, ContextMenu.ContextMenuInfo contextMenuInfo)
-    {
-          contextMenu.setHeaderTitle("Select this Action");
-          contextMenu.add(0,0,getAdapterPosition(), Common.UPDATE);
-          contextMenu.add(0,1,getAdapterPosition(), Common.DELETE);
 
 
-    }
 
 
 }

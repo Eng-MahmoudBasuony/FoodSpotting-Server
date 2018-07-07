@@ -8,62 +8,121 @@
     android:layout_margin="8dp"
     >
 
+
     <LinearLayout
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:orientation="horizontal"
-        android:layout_gravity="center_vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         >
 
-
         <LinearLayout
-            android:orientation="vertical"
-            android:layout_weight="9"
-            android:layout_width="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
 
-            <TextView
-                android:id="@+id/order_status_Id"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_weight="9"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:gravity="center_vertical|start"
-                android:textStyle="bold"
-                android:text="#111111"
+                >
+
+                <TextView
+                    android:id="@+id/order_status_Id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textStyle="bold"
+                    android:text="#111111"
+                    />
+
+                <TextView
+                    android:id="@+id/order_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textStyle="italic"
+                    android:text="Status"
+                    />
+
+                <TextView
+                    android:id="@+id/order_status_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textStyle="italic"
+                    android:text="123467897889"
+                    />
+
+
+                <TextView
+                    android:id="@+id/order_status_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:gravity="center_vertical|start"
+                    android:textStyle="italic"
+                    android:text="Address"
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="4"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btnEdit_itemStatus"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:background="@android:color/white"
+                android:textAllCaps="false"
                 />
 
-            <TextView
-                android:id="@+id/order_status"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btnRemove_itemStatus"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:gravity="center_vertical|start"
-                android:textStyle="italic"
-                android:text="Status"
+                android:text="Remove"
+                android:textAllCaps="false"
+                android:background="@android:color/white"
                 />
 
-            <TextView
-                android:id="@+id/order_status_phone"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btnDetails_itemStatus"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:gravity="center_vertical|start"
-                android:textStyle="italic"
-                android:text="123467897889"
+                android:text="Details"
+                android:textAllCaps="false"
+                android:background="@android:color/white"
                 />
-
-
-            <TextView
-                android:id="@+id/order_status_address"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btnDirection_itemStatus"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:gravity="center_vertical|start"
-                android:textStyle="italic"
-                android:text="Address"
+                android:text="Direction"
+                android:background="@android:color/white"
                 />
 
 
@@ -73,7 +132,6 @@
 
 
     </LinearLayout>
-
 
 
 
