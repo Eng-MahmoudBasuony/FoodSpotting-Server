@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">EMBEatItServer</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="slogin">We Transport Products to Customers as quick as our betrays</string>
+    <string name="s">نحن نقوم بنقل المنتجات إلى العملاء بسرعة فائقة</string>
+    <string name="Login_Here">Login here</string>
+    <string name="notAmemberYet">not Amember Yet</string>
+    <string name="Password">Password</string>
+    <string name="Phone_Number">Phone Number</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="name">Name</string>
+    <string name="select">Select</string>
+    <string name="Upload">Upload</string>
+    <string name="enter_your_food">Enter Your Food</string>
+    <string name="Description">Description</string>
+    <string name="Price">Price</string>
+    <string name="Discount">Discount</string>
+    <string name="title_activity_tracking_order">TrackingOrder</string>
+
+</resources>
