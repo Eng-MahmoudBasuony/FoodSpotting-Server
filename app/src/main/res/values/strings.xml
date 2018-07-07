@@ -23,5 +23,8 @@
     <string name="Price">Price</string>
     <string name="Discount">Discount</string>
     <string name="title_activity_tracking_order">TrackingOrder</string>
+    <string name="old_Password">Old Password</string>
+    <string name="new_Password">New Password</string>
+    <string name="repeat_Password">Repeat New Password</string>
 
 </resources>
