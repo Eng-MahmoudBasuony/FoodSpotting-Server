@@ -7,19 +7,68 @@
     app:cardElevation="4dp"
 
     >
-    
-    
-    
-    
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+         <ImageView
+             android:id="@+id/close_dialog_category"
+             android:layout_width="35dp"
+             android:layout_height="35dp"
+             android:src="@drawable/ic_close_black_48dp"
+              android:layout_alignParentRight="true"
+             android:layout_alignParentTop="true"
+             />
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+         android:padding="16dp"
         android:id="@+id/layout_edit_name"
+        android:layout_centerInParent="true"
         >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_category"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#35f406"
+            />
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/menu_categoryxl"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:theme="@style/TextStyleEditext"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/edit_menuId_Dialog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_menu_id"
+                android:inputType="numberDecimal"
+                android:paddingBottom="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp" />
+        </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,6 +129,7 @@
 
     </LinearLayout>
 
+    </RelativeLayout>
 
     
     

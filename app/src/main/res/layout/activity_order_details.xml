@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".OrderDetails"
+    tools:context="food.spotting.eng_mahnoud83coffey.embeatitserver.OrderDetails"
     android:background="@drawable/backgroudtow"
     android:padding="5dp"
     >

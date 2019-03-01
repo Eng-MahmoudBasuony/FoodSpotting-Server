@@ -9,7 +9,7 @@
 <item android:state_pressed="false">
     <shape android:shape="rectangle">
         <corners android:radius="8dp"/>
-        <solid android:color="@color/btnSignUpActive"/>
+        <solid android:color="#c77e0f"/>
         />
 
     </shape>
@@ -19,7 +19,7 @@
 <item android:state_pressed="true">
     <shape android:shape="rectangle">
         <corners android:radius="8dp"/>
-        <solid android:color="#bbff00"/>
+        <solid android:color="#ffb300"/>
     </shape>
 
 </item>

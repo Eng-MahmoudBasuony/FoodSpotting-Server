@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    android:layout_margin="8dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@color/Orange_medium" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"                android:textStyle="bold"
+                android:text="@string/shipper"
+                android:textAllCaps="false"
+                android:textColor="@color/black2"
+                android:background="@color/Orange_medium"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                />
+
+
+            <TextView
+                android:id="@+id/done_requesr_shipper_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="bold"
+                android:text="ابو الحناكش"
+                android:padding="1dp"
+                android:textColor="#0aa0d9"
+                android:fontFamily="monospace"
+                />
+
+            <TextView
+                android:id="@+id/done_requesr_shipper_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:text="01013694426"
+                android:padding="1dp"
+                android:textColor="@color/light_blue"
+                />
+
+
+            <TextView
+                android:id="@+id/done_requesr_date_delevary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:text="18-9-2018 sun 1:05"
+                android:padding="1dp"
+                android:textColor="@color/gray" />
+
+            <RatingBar
+                android:id="@+id/done_requesr_ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:numStars="5"
+                android:stepSize="1.0"
+                android:rating="0.0"
+                android:layout_marginLeft="10dp"
+                style="@style/Widget.AppCompat.RatingBar.Small"
+
+                 />
+
+            <TextView
+                android:id="@+id/done_requesr_comment_fedback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:text="not FeedBack"
+                android:padding="1dp"
+                android:textColor="@color/gray" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/Orange_medium" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"                android:textStyle="bold"
+                android:text="@string/order_details"
+                android:textColor="@color/black2"
+                android:background="@color/Orange_medium"
+                android:fontFamily="monospace"
+                android:padding="5dp"
+                />
+
+             <TextView
+                android:id="@+id/done_requesr_order_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="bold"
+                android:text="012255846666568755"
+                 android:layout_marginTop="5dp"
+                 android:padding="1dp"
+                 android:textColor="@color/light_blue"
+                 android:fontFamily="monospace"
+                 />
+
+            <TextView
+                android:id="@+id/done_requesr_clint_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="normal"
+                android:text="Mahmoud Basuony"
+                android:textColor="@color/light_blue"
+                android:textAllCaps="false"
+                android:padding="1dp"
+                />
+
+            <TextView
+                android:id="@+id/done_requesr_clint_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="normal"
+                android:text="01013694426665"
+                android:textColor="@color/light_blue"
+                android:textAllCaps="false"
+                android:padding="1dp"
+                />
+
+
+            <TextView
+                android:id="@+id/done_requesr_address_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:text="Address Egipt Elmansura"
+                android:textColor="@color/light_blue"
+                android:textAllCaps="false"
+                android:padding="1dp"
+                />
+
+            <TextView
+                android:id="@+id/done_requesr_payment_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="normal"
+                android:text="Cash"
+                android:padding="1dp"
+                android:textColor="@color/red"
+                />
+
+            <TextView
+                android:id="@+id/done_requesr_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="normal"
+                android:text="140 $"
+                android:padding="1dp"
+                android:textColor="@color/red"
+                 />
+
+            <TextView
+                android:id="@+id/done_requesr_state_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:text="Request Sent"
+                android:textColor="@color/green"
+                android:textAllCaps="false"
+                android:padding="1dp"
+                />
+
+            <TextView
+                android:id="@+id/done_requesr_date_order"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical|start"
+                android:textStyle="italic"
+                android:text="18-9-2018 sun 1:05"
+                android:padding="1dp"
+                android:textColor="@color/gray"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="#ff9703" />
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="1"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+           android:background="@color/yello"
+            >
+
+           <ImageView
+               android:id="@+id/done_remove_item"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:src="@drawable/ic_delete_black_24dp"
+               android:padding="5dp"
+               />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+</android.support.v7.widget.CardView>

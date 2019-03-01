@@ -6,38 +6,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context="food.spotting.eng_mahnoud83coffey.embeatitserver.MainActivity">
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/my_logoserver"
+        android:layout_width="330dp"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/txtslogn"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="@string/Application_Management"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/logo"
         android:layout_centerInParent="true"
-        android:orientation="vertical"
-        >
-        <ImageView
-            android:src="@drawable/finallogo"
-            android:layout_width="200dp"
-            android:scaleType="centerCrop"
-            android:layout_height="200dp"
-            android:layout_gravity="center"
-            android:layout_marginLeft="5dp"
-            />
-
-        <TextView
-            android:id="@+id/txtslogn"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:fontFamily="cursive"
-            android:gravity="center"
-            android:text="@string/slogin"
-            android:textAllCaps="false"
-            android:textColor="@android:color/white"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-    </LinearLayout>
-
+        />
 
 
 
@@ -57,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
             android:layout_weight="1"
-            android:background="@drawable/btnsignup"
+            android:background="@drawable/btnsignin"
             android:text="@string/Sign_In"
             android:textAllCaps="false"
             android:textColor="@android:color/white" />

@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/my_bg"
+    android:background="@drawable/m8"
     android:fillViewport="true"
     android:layoutDirection="locale"
-    tools:context=".SignIn">
+    tools:context="food.spotting.eng_mahnoud83coffey.embeatitserver.SignIn">
 
 
     <LinearLayout
@@ -15,6 +15,7 @@
         android:layout_height="match_parent"
         android:gravity="center"
         android:orientation="vertical"
+
         android:padding="15dp">
 
         <TextView
@@ -40,8 +41,7 @@
             >
 
             <android.support.design.widget.TextInputEditText
-                android:id="@+id/Phone_Number_SignIn"
-                android:layout_width="match_parent"
+                android:id="@+id/Phone_Number_SignIn"                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/Phone_Number"
                 android:inputType="phone"
@@ -72,16 +72,44 @@
                 android:textSize="16dp" />
         </android.support.design.widget.TextInputLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+            <com.rey.material.widget.CheckBox
+                android:id="@+id/checkbox_Remember_me"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                style="@style/Material.Drawable.CheckBox"
+                android:text="@string/remember_me"
+                android:textColor="@color/black1"
+                android:layout_gravity="left"
+                android:textSize="15dp"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                />
+
+
+
+        </LinearLayout>
+
+
+
         <Button
             android:id="@+id/Button_SignIn"
             android:layout_width="250dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="15dp"
-            android:layout_marginTop="15dp"
-            android:background="@drawable/btnsignup"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btnsignin"
             android:text="@string/Sign_In"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            android:textAllCaps="false"
+            />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -90,28 +118,17 @@
             android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="5dp"
-                android:text="@string/notAmemberYet"
-                android:textColor="#fcdf03" />
 
 
-            <TextView
-                android:id="@+id/Text_SignUp_Here"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/Login_Here"
-                android:textColor="#ffffff"
-                android:textSize="20dp"
 
-                />
+
 
         </LinearLayout>
 
 
     </LinearLayout>
+
+
 
 
 </ScrollView>

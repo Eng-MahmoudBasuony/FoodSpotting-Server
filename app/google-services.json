@@ -25,10 +25,6 @@
         {
           "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
           "client_type": 3
-        },
-        {
-          "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
-          "client_type": 3
         }
       ],
       "api_key": [
@@ -73,6 +69,90 @@
         {
           "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
           "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJuV6o3Zxcfd5rR-mLgwrnw_hqZnaWrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067186830912:android:a5996233cafe0850",
+        "android_client_info": {
+          "package_name": "com.example.eng_mahnoud83coffey.embfoodspottingshipper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067186830912-j4ms5jhmm8ee5abe2ha0mg3lceotia20.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eng_mahnoud83coffey.embfoodspottingshipper",
+            "certificate_hash": "7f7c63e165a10466ca246cad6f9424aa8d06871d"
+          }
+        },
+        {
+          "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTJuV6o3Zxcfd5rR-mLgwrnw_hqZnaWrY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067186830912:android:874d4447240b3a44",
+        "android_client_info": {
+          "package_name": "food.spotting.eng_mahnoud83coffey.embeatitserver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067186830912-ee202ac027u6d6djt1qhkhgdpkeb1o5c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "food.spotting.eng_mahnoud83coffey.embeatitserver",
+            "certificate_hash": "0952af75de095d99e0dfd9246504271ee76058c6"
+          }
         },
         {
           "client_id": "1067186830912-buo4gapaiaiacpe9rlch73u8j5k8i4bd.apps.googleusercontent.com",

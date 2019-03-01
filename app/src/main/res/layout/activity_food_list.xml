@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FoodList"
+    tools:context="food.spotting.eng_mahnoud83coffey.embeatitserver.FoodList"
     android:background="@drawable/background"
     android:id="@+id/rootLayout_foodList"
     >
@@ -20,7 +20,7 @@
         />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_home"
+        android:id="@+id/fab_foodlist"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"

@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.example.eng_mahnoud83coffey.embeatitserver"
+        applicationId "food.spotting.eng_mahnoud83coffey.embeatitserver"
         minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
@@ -28,6 +28,7 @@ dependencies {
     //---------------Google maps--------------------//
     implementation 'com.google.android.gms:play-services-location:15.0.1'
     implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'com.firebase:geofire-android:2.3.1' //من خلالها هخزن المكان على الفيربيز
     implementation 'com.google.android.gms:play-services-places:15.0.1'
 
     //noinspection GradleDynamicVersion
@@ -35,7 +36,7 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //----------------------------------------------------------//
-    implementation 'com.google.firebase:firebase-core:16.0.0'
+    implementation 'com.google.firebase:firebase-core:16.0.1'
     implementation 'com.google.firebase:firebase-database:16.0.1'// 	Realtime Database
     implementation 'com.google.firebase:firebase-storage:16.0.1'//Storage
     implementation 'com.android.support:design:27.1.1'
@@ -63,10 +64,27 @@ dependencies {
     implementation 'com.squareup.retrofit2:converter-scalars:2.4.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 
-    //Library AlertDialog with moving dots progress indicator
-    implementation 'com.github.d-max:spots-dialog:1.1@aar'
+    //--------المكتبتين دول مهمين -------
+    implementation 'com.firebase:geofire-android:2.3.1' //من خلالها هخزن المكان على الفيربيز
+    implementation 'com.akexorcist:googledirectionlibrary:1.1.1' //Library Direction Google
+
+    //Animation library Lottie
+    implementation 'com.airbnb.android:lottie:2.6.1'
+
+    //Library Circle Image
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
+    //compress the image size
+    implementation 'id.zelory:compressor:2.1.0'
+
+    //------------Crope Image-----------//
+    implementation 'com.theartofdev.edmodo:android-image-cropper:2.5.+'
+
+    //---------------Event Buss--------------//
+    // implementation 'org.greenrobot:eventbus:3.1.1'
 
 
+    implementation 'com.github.rey5137:material:1.2.5'
 }
 
 apply plugin: 'com.google.gms.google-services'

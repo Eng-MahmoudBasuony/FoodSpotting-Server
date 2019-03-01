@@ -1,23 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.v7.widget.CardView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/my_bg"
+    android:fillViewport="true"
+    android:layoutDirection="locale"
+     >
+
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     app:cardElevation="4dp"
+    app:cardCornerRadius="5dp"
     >
 
 
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+ <ImageView
+     android:id="@+id/btn_cloase_addfoodlist"
+     android:layout_width="40dp"
+     android:layout_height="40dp"
+     android:src="@drawable/ic_close_black_48dp"
+     android:layout_alignParentTop="true"
+     android:layout_alignParentRight="true"
+     />
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
         android:id="@+id/layout_edit_name"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
         >
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_food"
+            android:layout_gravity="center"
+            android:fontFamily="serif-monospace"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="#35f406"
+            android:layout_marginTop="20dp"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/foodlist"
+            android:layout_marginTop="5dp"
+            />
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -139,8 +181,8 @@
     </LinearLayout>
 
 
-
-
-
-
+    </RelativeLayout>
 </android.support.v7.widget.CardView>
+
+
+</ScrollView>

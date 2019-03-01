@@ -6,7 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".OrderStatus">
+    tools:context="food.spotting.eng_mahnoud83coffey.embeatitserver.OrderStatus"
+    android:id="@+id/rootLayout_OrderStatus"
+    >
 
 
 

@@ -26,5 +26,42 @@
     <string name="old_Password">Old Password</string>
     <string name="new_Password">New Password</string>
     <string name="repeat_Password">Repeat New Password</string>
+    <string name="Id">Id</string>
+    <string name="send_message">Send Message</string>
+    <string name="title">Title</string>
+    <string name="content_message">Content Message</string>
+    <string name="ShippersManagement">Shippers Management</string>
+    <string name="name_shipper">Shipper Name</string>
+    <string name="shipper_phone">Shipper Phone</string>
+    <string name="shipper_password">Shipper Password</string>
+    <string name="status">Status</string>
+    <string name="chose_shipper">Chose Shipper</string>
+    <string name="shipper">Shipper</string>
+    <string name="order_details">Order Details</string>
+    <string name="successful_Orders">Successful Orders</string>
+    <string name="Call_shipper">Call Shipper</string>
+    <string name="Call_client">Call Client</string>
+
+    <string name="google_directions_key">AIzaSyD9TQRCR4M5q_ZCNPlOnt1TEBOXT743yQo</string>
+    <string name="enter_menu_id">Enter Menu ID Category</string>
+    <string name="description_category">Add New Category</string>
+    <string name="update_Category">Update Category</string>
+    <string name="Update">Update</string>
+    <string name="menId">Menu Id Category</string>
+    <string name="add_new_food">Add New Food</string>
+    <string name="update_food_list">Update Food</string>
+    <string name="AddToBanner">Add To Banner</string>
+    <string name="Foodid">Food Id :</string>
+    <string name="FoodName">Food Name :</string>
+    <string name="choose_food">Choose Food</string>
+    <string name="menuId">Menu Id</string>
+    <string name="choose_menu_image">Choose Menu Image</string>
+    <string name="Click_Here">Click Here</string>
+    <string name="Done">Done</string>
+    <string name="Application_Management">Application Management</string>
+    <string name="forget_password">Forget Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="Private_police">Private police</string>
+
 
 </resources>
