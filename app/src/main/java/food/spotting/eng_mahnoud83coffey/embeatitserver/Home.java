@@ -201,8 +201,6 @@ public class Home extends AppCompatActivity
     //Method Load Data From FirebaseDatabse AND send Data to RecyclerView
     private void loadMenu()
     {
-
-
         //---Using Firebase UI to populate a RecyclerView--------//
         query= FirebaseDatabase.getInstance()
                 .getReference()
@@ -239,9 +237,7 @@ public class Home extends AppCompatActivity
                         // .placeholder(R.drawable.d)//الصوره الافتراضه اللى هتظهر لحد لما الصوره تتحمل
                         .into(holder.imageView);
 
-
                 final Category clickItem=model;
-
 
                 //لما المستخدم يضغط على اى صف
                 holder.setItemClickListener(new ItemClickListiner()
