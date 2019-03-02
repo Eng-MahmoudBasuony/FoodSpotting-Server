@@ -46,25 +46,20 @@ public class MainActivity extends AppCompatActivity {
 
         //--------------------------------Id-----------------------//
         btnSignIn=(Button)findViewById(R.id.btnMainSignIn);
-
         sLogin=(TextView)findViewById(R.id.txtslogn);
-
 
         //---------------Init---------------//
         firebaseDatabase=FirebaseDatabase.getInstance();
         table_User=firebaseDatabase.getReference(Common.USER);
 
-
         progressDialog=new ProgressDialog(this);
         sharedPref=getSharedPreferences(Common.USER_DATA,MODE_PRIVATE);
-
 
         userNamePre=sharedPref.getString(Common.USER_KEY,null);
         passwordPre=sharedPref.getString(Common.PASSWORD_KEY,null);
 
         if (userNamePre!=null&&passwordPre!=null)
         {
-
             if (!userNamePre.isEmpty()&&!passwordPre.isEmpty())
             {
                 login(userNamePre,passwordPre);
@@ -72,16 +67,9 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
-
-
-
-
         //---------------Custom Font----------------//
         typeface=Typeface.createFromAsset(getAssets(),"fonts/nabila.ttf");
         sLogin.setTypeface(typeface);
-
-
-
 
 
         //------------------------Action----------------------//
@@ -103,7 +91,6 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
 
     }
 
