@@ -71,8 +71,10 @@
   
   ---
   
- # other Features
- ###### Link Google Play https://play.google.com/store/apps/details?id=food.spotting.eng_mahnoud83coffey.embeatitserver
+ # other Features Download
+ 
+[![Link Google play](https://firebasestorage.googleapis.com/v0/b/learn-esaily.appspot.com/o/LOGO%2F2.png?alt=media&token=149a2fc1-138d-4d20-a283-4a07a08cad85)](https://play.google.com/store/apps/details?id=food.spotting.eng_mahnoud83coffey.embeatitserver)
+
  
  [FoodSpotting]
 Copyright (C) [2018-2019] [Mahmoud Basuony]
