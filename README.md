@@ -9,7 +9,7 @@
   Project Preview : [YOUTUBE](https://www.youtube.com/watch?v=WJ0AiIBmnsk&feature=youtu.be)  
   
  # Technology used
- Firebase Realtime Database , cloud storage -SQLite - shared preference - FCM - Topic messaging "Subscribe" - GPS - Google Maps - Retrofit Library - 
+ Firebase Realtime Database , cloud storage -SQLite - shared preference - FCM - Topic messaging "Subscribe" - GPS - Google Maps - Retrofit Library - MaterialSearchBar -
  Picasso Library -NotificationChannel and  Notification - material design-swipeRefresh-Swipe to delete RecyclerView - Custom Dialog ,ProgressBar , Recyclerview , CardView ,FAB  , ...
  
  # Some Features in app (Server App) 
