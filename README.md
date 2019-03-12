@@ -13,6 +13,7 @@
  Picasso Library -NotificationChannel and  Notification - material design-swipeRefresh-Swipe to delete RecyclerView - Custom Dialog ,ProgressBar , Recyclerview , CardView ,FAB  , ...
  
  # Some Features in app (Server App) 
+   *  Building out the app UI for Administrator to add, update and remove inventory. 
    *  Login by Firebase for Staff only
    *  The server app send Notifications to Client App is subscribed to Topic
    *  add new Category Food( name , menuId , Image) 
